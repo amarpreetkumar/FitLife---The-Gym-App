@@ -404,7 +404,7 @@
   }
   
   .navbar {
-    background-color: var(--coquelicot);
+    background-color: var(--black_10);
     color: var(--white);
     position: fixed;
     top: 100%;
@@ -416,12 +416,14 @@
     visibility: hidden;
     transition: 0.25s var(--cubic-in);
   }
-  
   .navbar.active {
     visibility: visible;
     transform: translateY(-100%);
     transition: 0.5s var(--cubic-out);
   }
+
+
+  
   
   .nav-close-btn {
     position: absolute;
@@ -444,11 +446,6 @@
   }
   
   .navbar-link:is(:hover, :focus, .active) { color: var(--rich-black-fogra-29-1); }
-  
-  
-  
-  
-  
   /*-----------------------------------*\
     #HERO
   \*-----------------------------------*/
